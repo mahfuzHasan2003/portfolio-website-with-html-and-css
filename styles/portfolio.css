@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Open Sans", sans-serif;
+}
+
+
+/* Shared styles  */
+.primary-color{
+    color: #FD6E0A;
+}
+.dark-color{
+    font-size: 20px;
+    color: #474747;
+}
+.primary-btn {
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.primary-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+.primary-btn a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.nav-container .nav-logo{
+    font-size: 40px;
+}
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+.nav-container ul a {
+    text-decoration: none;
+}
+.nav-container ul a:hover {
+    text-decoration: underline;
+}
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 150px;
+    background-image: url(/portfolio-resources/images/developer.png), url(/portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: contain;
+}
+.banner-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    flex: 0 0 50%;
+}
+.banner-container .banner-btn {
+    display: flex;
+    gap: 10px;
+}
+.banner-image {
+    flex: 0 0 50%;
+}
+.banner-image .image {
+    width: 450px;
+}
